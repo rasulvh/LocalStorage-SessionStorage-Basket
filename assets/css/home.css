@@ -1,0 +1,14 @@
+.navbar .cart-link{
+    text-decoration: none;
+    color: rgb(255, 205, 68);
+    font-size: 22px;
+}
+
+.navbar sup{
+    font-size: 18px;
+}
+
+.cards{
+    justify-content: space-between;
+    display: flex;
+}

@@ -1,0 +1,65 @@
+.navbar .cart-link{
+    text-decoration: none;
+    color: rgb(255, 205, 68);
+    font-size: 22px;
+}
+
+.navbar sup{
+    font-size: 18px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+td{
+    vertical-align: middle;
+}
+
+i{
+    cursor: pointer;
+}
+
+.table .total-price{
+    font-size: 30px;
+    color: red;
+    line-height: 10px;
+}
+
+.table h3{
+    color: red;
+}
+
+.product-count .decrease{
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.product-count .increase{
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom .delete-all{
+    font-size: 28px;
+    background: red;
+    color: white;
+    border-radius: 35%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.bottom .delete-all:hover{
+    border: 3px solid red;
+    color: black;
+    background: white;
+}
